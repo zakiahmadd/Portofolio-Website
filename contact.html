@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact | Zaki Ahmad</title>
+</head>
+<body>
+    <nav>
+        <img src="images/logo-unpad.png" alt="">
+        <!-- <button class="left-side" onclick="window.open('https://github.com/zakiahmadd?tab=repositories', '_blank')">
+            <i class='bx bxl-github'></i>
+            <p>GitHub</p>
+        </button> -->
+        <div class="nav-links">
+            <a class="selected" href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <hr class="fancy-hr">
+
+    <div class="contact-container">
+        <div class="header">
+            <h4>Contact Now</h4>
+        </div>
+        <div class="form-container">
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </form>
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                <a href="https://github.com/zakiahmadd?tab=repositories" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/zaki-ahmad-2a7b3424b/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="contact.html"><i class='bx bxs-envelope'></i></a>
+                <a href="https://www.instagram.com/zakiahmaadd/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+            <p>Copyright ©2024, All rights reserved </p>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
